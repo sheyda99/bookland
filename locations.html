@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="bookstore, bookshop, books, bestsellers, online store">
+    <meta name="description" content="Bookland - web site">
+    <meta name="author" content="Sheyda Sultan">
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/f9a01ea1da.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts links-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Locations | Bookland</title>
+    <link rel="shortcut icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+    <header>
+        <div id="banner" class="ps-3 pe-3 d-flex flex-column flex-sm-row justify-content-between align-items-center">
+            <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="Bookland logo">BOOK<span style="color: #000;">LAND</span></a>
+            <form class="d-flex w-25">
+                <input class="form-control me-2 fst-italic" type="search" placeholder="Search a book" aria-label="Search">
+                <button class="btn btn-burgundy" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <nav id="navbar" class="navbar navbar-expand-xl navbar-dark">
+            <div class="container-fluid">
+                <button id="navbarToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="new-arrivals.html">New Arrivals</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="bestsellers.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bestsellers</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Fiction Bestsellers</a></li>
+                                <li><a class="dropdown-item" href="#">Non-fiction Bestsellers</a></li>
+                                <li><a class="dropdown-item" href="#">Young Readers Bestsellers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="fiction-books.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fiction Books</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Romance</a></li>
+                                <li><a class="dropdown-item" href="#">Adventure</a></li>
+                                <li><a class="dropdown-item" href="#">Science Fiction</a></li>
+                                <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                                <li><a class="dropdown-item" href="#">Thriller</a></li>
+                                <li><a class="dropdown-item" href="#">Horror</a></li>
+                                <li><a class="dropdown-item" href="#">Mystery</a></li>
+                                <li><a class="dropdown-item" href="#">Crime</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="non-fiction-book.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Non-fiction Books</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">History</a></li>
+                                <li><a class="dropdown-item" href="#">Biographies</a></li>
+                                <li><a class="dropdown-item" href="#">Travel guides</a></li>
+                                <li><a class="dropdown-item" href="#">Philosophy</a></li>
+                                <li><a class="dropdown-item" href="#">Journalism</a></li>
+                                <li><a class="dropdown-item" href="#">Humor</a></li>
+                                <li><a class="dropdown-item" href="#">Self-help</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">eBooks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="locations.html"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Find a Store</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="navbar-nav ms-auto d-flex flex-row align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" type="button" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;Login</a>
+                    </li>
+                    <li class="nav-item" style="border-color: transparent;">
+                        <a class="btn btn-pink" href="#" type="button" data-bs-toggle="modal" data-bs-target="#signUpModal">Sign Up</a>
+                    </li>
+                    <li class="nav-item cart dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-shopping-cart"></i></a>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="row m-2 p-2">
+                                <div class="col-3 p-0">
+                                    <img src="images/new-arrivals/001.jpg" alt="Red Rising book cover" width="100%">
+                                </div>
+                                <div class="col-9">
+                                    <p class="fs-4">Red Rising</p>
+                                    <p>1 x $12.79</p>
+                                </div>
+                            </div>
+                            <p class="text-center fw-bold"><small>Total 1 product</small></p>
+                            <p class="text-center"><a href="#" class="btn btn-burgundy">Checkout</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Login Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content p-3">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">Login as Existing Customer</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="login-email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="login-email" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="login-pass" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="login-pass">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="remember">
+                                <label class="form-check-label" for="remember">Remember me</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-start">
+                        <button type="submit" class="btn btn-burgundy">Login</button>
+                        <p>or <a href="#" class="burgundy-link" type="button" data-bs-toggle="modal" data-bs-target="#signUpModal" data-bs-dismiss="modal">Create a new account</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sign up Modal -->
+        <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content p-3">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="signUpModalLabel">Create an Account</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="signup-email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="signup-email" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="signup-pass" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="signup-pass">
+                            </div>
+                            <div class="mb-3">
+                                <label for="signup-pass-conf" class="form-label">Password Confirmation</label>
+                                <input type="password" class="form-control" id="signup-pass-conf">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="send-email">
+                                <label class="form-check-label" for="send-email">Send me emails about new books, authors, and campaigns.</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-start">
+                        <button type="submit" class="btn btn-burgundy">Create</button>
+                        <p>or <a href="#" class="burgundy-link" type="button" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-dismiss="modal">Login as Existing Customer</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-2 pb-2">
+        <section class="container pt-5 pb-5">
+            <div class="section-header ps-2 pe-2 mb-3">
+                <h2>Locations</h2>
+            </div>
+            <div class="row pb-5">
+                <div class="col-4">
+                    <div class="card" style="height: 500px;">
+                        <img src="images/loaction-1.jpg" class="card-img-top" alt="Bookland store">
+                        <div class="card-body ps-5 pe-5 d-flex flex-column">
+                            <h4 class="card-title">Bookland</h4>
+                            <p class="address">Icherisheher st., Baku, Azerbaijan</p>
+                            <p><b>Phone:</b> (+994 12) 123-45-67</p>
+                            <p><b>Working hours:</b> 09:00 - 21:00</p>
+                            <a class="btn btn-burgundy mt-auto" href="https://www.google.com/maps/place/Icherisheher/@40.3671771,49.8294828,17z/data=!4m5!3m4!1s0x40307dc987bb6605:0xe3723f7738ae4ea3!8m2!3d40.3658861!4d49.8317716" target="_blank" class="btn mt-auto"><i class="fas fa-map-marker-alt"></i> Show on Map</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="height: 500px;">
+                        <img src="images/loaction-2.jpg" class="card-img-top" alt="Bookland store">
+                        <div class="card-body ps-5 pe-5 d-flex flex-column">
+                            <h4 class="card-title">Bookland</h4>
+                            <p class="address">Ganjlik st., Baku, Azerbaijan</p>
+                            <p><b>Phone:</b> (+994 12) 123-45-67</p>
+                            <p><b>Working hours:</b> 09:00 - 21:00</p>
+                            <a class="btn btn-burgundy mt-auto" href="https://www.google.com/maps/place/Ganjlik+st./@40.4005251,49.8487253,17z/data=!3m1!4b1!4m5!3m4!1s0x40307d678656d983:0x5d02812ab8ed7fad!8m2!3d40.400521!4d49.850914" target="_blank" class="btn mt-auto"><i class="fas fa-map-marker-alt"></i> Show on Map</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="height: 500px;">
+                        <img src="images/loaction-3.jpg" class="card-img-top" alt="Bookland store">
+                        <div class="card-body ps-5 pe-5 d-flex flex-column">
+                            <h4 class="card-title">Bookland</h4>
+                            <p class="address">28 May st., Baku, Azerbaijan</p>
+                            <p><b>Phone:</b> (+994 12) 123-45-67</p>
+                            <p><b>Working hours:</b> 09:00 - 21:00</p>
+                            <a class="btn btn-burgundy mt-auto" href="https://www.google.com/maps/place/28+May+st./@40.3810607,49.8468167,17z/data=!3m1!4b1!4m5!3m4!1s0x40307d09c62e19b1:0x9aad0f3cd1388621!8m2!3d40.3810566!4d49.8490054" target="_blank" class="btn mt-auto"><i class="fas fa-map-marker-alt"></i> Show on Map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.9469981646907!2d49.82725641492386!3d40.365699566666194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dc987bb6605%3A0xe3723f7738ae4ea3!2sIcherisheher!5e0!3m2!1sen!2s!4v1619242650294!5m2!1sen!2s" width="100%" height="400" style="border: 5px solid #800E13;" loading="lazy"></iframe>
+        </section>
+    </main>
+
+    <footer style="z-index: 3;">
+        <section id="footer" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row d-flex flex-row">
+                    <div class="col-md-4 col-sm-6 mt-md-auto mb-md-auto mb-3 text-center text-md-start">
+                        <a href="index.html" class="logo">BOOK<span>LAND</span></a>
+                        <p class="copyright">&copy; Copyright 2021</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 text-center">
+                        <div class="social-media mb-3">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="contact">
+                            <p><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;(+994 012) 123-45-67</p>
+                            <p><i class="fas fa-fax"></i>&nbsp;&nbsp;(+994 012) 123-45-67</p>
+                            <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;info@bookland.az</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 profile mt-auto mb-auto d-flex flex-column align-items-md-end">
+                        <a href="#" class="btn btn-pink mb-3" type="button" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;Login</a>
+                        <a href="#" class="btn btn-pink" type="button" data-bs-toggle="modal" data-bs-target="#signUpModal">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

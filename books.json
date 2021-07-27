@@ -1,0 +1,149 @@
+{
+    "new_arrivals": [
+        {
+            "id": "001",
+            "book_title": "Red Rising",
+            "book_series": "Red Rising Saga #1",
+            "author": "Pierce Brown",
+            "avg_raiting": 4.2,
+            "raitings": "269,496",
+            "amount": 12.79,
+            "about": "“I live for the dream that my children will be born free,” she says. “That they will be what they like. That they will own the land their father gave them.”<br><br>“I live for you,” I say sadly.<br><br>Eo kisses my cheek. “Then you must live for more.”",
+            "about_more": "Darrow is a Red, a member of the lowest caste in the color-coded society of the future. Like his fellow Reds, he works all day, believing that he and his people are making the surface of Mars livable for future generations.<br><br>Yet he spends his life willingly, knowing that his blood and sweat will one day result in a better world for his children.<br><br>But Darrow and his kind have been betrayed. Soon he discovers that humanity already reached the surface generations ago. Vast cities and sprawling parks spread across the planet. Darrow—and Reds like him—are nothing more than slaves to a decadent ruling class.<br><br>Inspired by a longing for justice, and driven by the memory of lost love, Darrow sacrifices everything to infiltrate the legendary Institute, a proving ground for the dominant Gold caste, where the next generation of humanity's overlords struggle for power. He will be forced to compete for his life and the very future of civilization against the best and most brutal of Society's ruling class. There, he will stop at nothing to bring down his enemies... even if it means he has to become one of them to do so."
+        },
+        {
+            "id": "002",
+            "book_title": "Gone with the Wind",
+            "book_series": "",
+            "author": "Margaret Mitchell",
+            "avg_raiting": 4.3,
+            "raitings": "1,104,656",
+            "amount": 8.50,
+            "about": "Scarlett O'Hara, the beautiful, spoiled daughter of a well-to-do Georgia plantation owner, must use every means at her disposal to claw her way out of the poverty she finds herself in after Sherman's March to the Sea.",
+            "about_more": ""
+        },
+        {
+            "id": "003",
+            "book_title": "House Made of Dawn",
+            "book_series": "",
+            "author": "N. Scott Momaday",
+            "avg_raiting": 3.6,
+            "raitings": "7,139",
+            "amount": 5.84,
+            "about": "The magnificent Pulitzer Prize-winning novel of a proud stranger in his native land.<br><br>He was a young American Indian named Abel, and he lived in two worlds. One was that of his father, wedding him to the rhythm of the seasons, the harsh beauty of the land, the ecstasy of the drug called peyote. The other was the world of the twentieth century, goading him into a compulsive cycle of sexual exploits, dissipation, and disgust. Home from a foreign war, he was a man being torn apart, a man descending into hell.",
+            "about_more": ""
+        },
+        {
+            "id": "004",
+            "book_title": "The Institute",
+            "book_series": "",
+            "author": "Stephen King",
+            "avg_raiting": 4.2,
+            "raitings": "154,432",
+            "amount": 14.99,
+            "about": "In the middle of the night, in a house on a quiet street in suburban Minneapolis, intruders silently murder Luke Ellis’s parents and load him into a black SUV. The operation takes less than two minutes. Luke will wake up at The Institute, in a room that looks just like his own, except there’s no window. And outside his door are other doors, behind which are other kids with special talents—telekinesis and telepathy—who got to this place the same way Luke did: Kalisha, Nick, George, Iris, and ten-year-old Avery Dixon. They are all in Front Half. Others, Luke learns, graduated to Back Half, “like the roach motel,” Kalisha says. “You check in, but you don’t check out.”",
+            "about_more": "In this most sinister of institutions, the director, Mrs. Sigsby, and her staff are ruthlessly dedicated to extracting from these children the force of their extranormal gifts. There are no scruples here. If you go along, you get tokens for the vending machines. If you don’t, punishment is brutal. As each new victim disappears to Back Half, Luke becomes more and more desperate to get out and get help. But no one has ever escaped from the Institute."
+        },
+        {
+            "id": "005",
+            "book_title": "The Water Dancer",
+            "book_series": "",
+            "author": "Ta-Nehisi Coates",
+            "avg_raiting": 4.0,
+            "raitings": "80,306",
+            "amount": 13.99,
+            "about": "Young Hiram Walker was born into bondage. When his mother was sold away, Hiram was robbed of all memory of her — but was gifted with a mysterious power. Years later, when Hiram almost drowns in a river, that same power saves his life. This brush with death births an urgency in Hiram and a daring scheme: to escape from the only home he’s ever known.",
+            "about_more": "So begins an unexpected journey that takes Hiram from the corrupt grandeur of Virginia’s proud plantations to desperate guerrilla cells in the wilderness, from the coffin of the deep South to dangerously utopic movements in the North. Even as he’s enlisted in the underground war between slavers and the enslaved, Hiram’s resolve to rescue the family he left behind endures."
+        },
+        {
+            "id": "006",
+            "book_title": "The Testaments",
+            "book_series": "The Handmaid's Tale #2",
+            "author": "Margaret Atwood",
+            "avg_raiting": 4.2,
+            "raitings": "246,257",
+            "amount": 11.99,
+            "about": "When the van door slammed on Offred's future at the end of The Handmaid's Tale, readers had no way of telling what lay ahead for her--freedom, prison or death.<br><br>With <span class='fst-italic'>The Testaments</span>, the wait is over.<br><br>Margaret Atwood's sequel picks up the story more than fifteen years after Offred stepped into the unknown, with the explosive testaments of three female narrators from Gilead.",
+            "about_more": "In this brilliant sequel to The Handmaid's Tale, acclaimed author Margaret Atwood answers the questions that have tantalized readers for decades.<br><br><br><br>“Dear Readers: Everything you've ever asked me about Gilead and its inner workings is the inspiration for this book. Well, almost everything! The other inspiration is the world we've been living in.”<br><br>--Margaret Atwood"
+        },
+        {
+            "id": "007",
+            "book_title": "Lost Children Archive",
+            "book_series": "",
+            "author": "Valeria Luiselli",
+            "avg_raiting": 3.8,
+            "raitings": "15,408",
+            "amount": 16.99,
+            "about": "From the two-time NBCC Finalist, an emotionally resonant, fiercely imaginative new novel about a family whose road trip across America collides with an immigration crisis at the southwestern border--an indelible journey told with breathtaking imagery, spare lyricism, and profound humanity.<br><br>A mother and father set out with their two children, a boy and a girl, driving from New York to Arizona in the heat of summer. Their destination: Apacheria, the place the Apaches once called home.",
+            "about_more": "Why Apaches? asks the ten-year-old son. Because they were the last of something, answers his father.<br><br>In their car, they play games and sing along to music. But on the radio, there is news about an “immigration crisis”: thousands of kids trying to cross the southwestern border into the United States, but getting detained--or lost in the desert along the way.<br><br>As the family drives--through Virginia to Tennessee, across Oklahoma and Texas--we sense they are on the brink of a crisis of their own. A fissure is growing between the parents, one the children can almost feel beneath their feet. They are led, inexorably, to a grand, harrowing adventure--both in the desert landscape and within the chambers of their own imaginations.<br><br>Told through several compelling voices, blending texts, sounds, and images, Lost Children Archive is an astonishing feat of literary virtuosity. It is a richly engaging story of how we document our experiences, and how we remember the things that matter to us the most. With urgency and empathy, it takes us deep into the lives of one remarkable family as it probes the nature of justice and equality today."
+        },
+        {
+            "id": "008",
+            "book_title": "On the Come Up",
+            "book_series": "",
+            "author": "Angie Thomas",
+            "avg_raiting": 4.3,
+            "raitings": "74,160",
+            "amount": 9.45,
+            "about": "Sixteen-year-old Bri wants to be one of the greatest rappers of all time. Or at least make it out of her neighborhood one day. As the daughter of an underground rap legend who died before he hit big, Bri’s got big shoes to fill. But now that her mom has unexpectedly lost her job, food banks and shutoff notices are as much a part of Bri’s life as beats and rhymes. With bills piling up and homelessness staring her family down, Bri no longer just wants to make it—she has to make it.",
+            "about_more": "<span class='fst-italic'>On the Come Up</span> is Angie Thomas’s homage to hip-hop, the art that sparked her passion for storytelling and continues to inspire her to this day. It is the story of fighting for your dreams, even as the odds are stacked against you; of the struggle to become who you are and not who everyone expects you to be; and of the desperate realities of poor and working-class black families."
+        },
+        {
+            "id": "009",
+            "book_title": "Becoming",
+            "book_series": "",
+            "author": "Michelle Obama",
+            "avg_raiting": 4.5,
+            "raitings": "699,147",
+            "amount": 12.99,
+            "about": "In a life filled with meaning and accomplishment, Michelle Obama has emerged as one of the most iconic and compelling women of our era. As First Lady of the United States of America—the first African American to serve in that role—she helped create the most welcoming and inclusive White House in history, while also establishing herself as a powerful advocate for women and girls in the U.S. and around the world, dramatically changing the ways that families pursue healthier and more active lives, and standing with her husband as he led America through some of its most harrowing moments. Along the way, she showed us a few dance moves, crushed Carpool Karaoke, and raised two down-to-earth daughters under an unforgiving media glare.",
+            "about_more": "In her memoir, a work of deep reflection and mesmerizing storytelling, Michelle Obama invites readers into her world, chronicling the experiences that have shaped her—from her childhood on the South Side of Chicago to her years as an executive balancing the demands of motherhood and work, to her time spent at the world’s most famous address. With unerring honesty and lively wit, she describes her triumphs and her disappointments, both public and private, telling her full story as she has lived it—in her own words and on her own terms. Warm, wise, and revelatory, Becoming is the deeply personal reckoning of a woman of soul and substance who has steadily defied expectations—and whose story inspires us to do the same."
+        },
+        {
+            "id": "010",
+            "book_title": "City of Ashes",
+            "book_series": "The Mortal Instruments #2",
+            "author": "Cassandra Clare",
+            "avg_raiting": 4.2,
+            "raitings": "799,943",
+            "amount": 14.99,
+            "about": "Clary Fray just wishes that her life would go back to normal. But what's normal when you're a demon-slaying Shadowhunter, your mother is in a magically induced coma, and you can suddenly see Downworlders like werewolves, vampires, and faeries? If Clary left the world of the Shadowhunters behind, it would mean more time with her best friend, Simon, who's becoming more than a friend. But the Shadowhunting world isn't ready to let her go — especially her handsome, infuriating, newfound brother, Jace. And Clary's only chance to help her mother is to track down rogue Shadowhunter Valentine, who is probably insane, certainly evil — and also her father.",
+            "about_more": "To complicate matters, someone in New York City is murdering Downworlder children. Is Valentine behind the killings — and if he is, what is he trying to do? When the second of the Mortal Instruments, the Soul-Sword, is stolen, the terrifying Inquisitor arrives to investigate and zooms right in on Jace. How can Clary stop Valentine if Jace is willing to betray everything he believes in to help their father?<br><br>In this breathtaking sequel to <span class='fst-italic'>City of Bones</span>, Cassandra Clare lures her readers back into the dark grip of New York City's Downworld, where love is never safe and power becomes the deadliest temptation."
+        },
+        {
+            "id": "011",
+            "book_title": "City of Bones",
+            "book_series": "The Mortal Instruments #1",
+            "author": "Cassandra Clare",
+            "avg_raiting": 4.1,
+            "raitings": "1,709,915",
+            "amount": 8.99,
+            "about": "When fifteen-year-old Clary Fray heads out to the Pandemonium Club in New York City, she hardly expects to witness a murder― much less a murder committed by three teenagers covered with strange tattoos and brandishing bizarre weapons. Then the body disappears into thin air. It's hard to call the police when the murderers are invisible to everyone else and when there is nothing―not even a smear of blood―to show that a boy has died. Or was he a boy?",
+            "about_more": "This is Clary's first meeting with the Shadowhunters, warriors dedicated to ridding the earth of demons. It's also her first encounter with Jace, a Shadowhunter who looks a little like an angel and acts a lot like a jerk. Within twenty-four hours Clary is pulled into Jace's world with a vengeance when her mother disappears and Clary herself is attacked by a demon. But why would demons be interested in ordinary mundanes like Clary and her mother? And how did Clary suddenly get the Sight? The Shadowhunters would like to know..."
+        },
+        {
+            "id": "012",
+            "book_title": "The Bazaar of Bad Dreams",
+            "book_series": "",
+            "author": "Stephen King",
+            "avg_raiting": 3.9,
+            "raitings": "49,378",
+            "amount": 10.99,
+            "about": "A master storyteller at his best—the O. Henry Prize winner Stephen King delivers a generous collection of stories, several of them brand-new, featuring revelatory autobiographical comments on when, why, and how he came to write (or rewrite) each story.<br><br>Since his first collection, Nightshift, published thirty-five years ago, Stephen King has dazzled readers with his genius as a writer of short fiction. In this new collection he assembles, for the first time, recent stories that have never been published in a book. He introduces each with a passage about its origins or his motivations for writing it.",
+            "about_more": "There are thrilling connections between stories; themes of morality, the afterlife, guilt, what we would do differently if we could see into the future or correct the mistakes of the past. “Afterlife” is about a man who died of colon cancer and keeps reliving the same life, repeating his mistakes over and over again. Several stories feature characters at the end of life, revisiting their crimes and misdemeanors. Other stories address what happens when someone discovers that he has supernatural powers—the columnist who kills people by writing their obituaries in “Obits;” the old judge in “The Dune” who, as a boy, canoed to a deserted island and saw names written in the sand, the names of people who then died in freak accidents. In “Morality,” King looks at how a marriage and two lives fall apart after the wife and husband enter into what seems, at first, a devil’s pact they can win.<br><br>Magnificent, eerie, utterly compelling, these stories comprise one of King’s finest gifts to his constant reader—“I made them especially for you,” says King. “Feel free to examine them, but please be careful. The best of them have teeth.”"
+        }
+    ],
+    "bestsellers": [
+        {
+            "id": "001",
+            "book_title": "",
+            "book_series": "",
+            "author": "",
+            "avg_raiting": ,
+            "raitings": "",
+            "amount": ,
+            "about": "",
+            "about_more": ""
+        }
+    ]
+}

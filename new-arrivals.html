@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="bookstore, bookshop, books, bestsellers, online store">
+    <meta name="description" content="Bookland - web site">
+    <meta name="author" content="Sheyda Sultan">
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/f9a01ea1da.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts links-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home | Bookland</title>
+    <link rel="shortcut icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+    <header>
+        <div id="banner" class="ps-3 pe-3 d-flex flex-column flex-sm-row justify-content-between align-items-center">
+            <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="Bookland logo">BOOK<span style="color: #000;">LAND</span></a>
+            <form class="d-flex">
+                <input class="form-control me-2 fst-italic" type="search" placeholder="Search a book" aria-label="Search">
+                <button class="btn btn-burgundy" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <nav id="navbar" class="navbar navbar-expand-xl navbar-dark">
+            <div class="container-fluid">
+                <button id="navbarToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="new-arrivals.html">New Arrivals</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="bestsellers.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bestsellers</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Fiction Bestsellers</a></li>
+                                <li><a class="dropdown-item" href="#">Non-fiction Bestsellers</a></li>
+                                <li><a class="dropdown-item" href="#">Young Readers Bestsellers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="fiction-books.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fiction Books</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Romance</a></li>
+                                <li><a class="dropdown-item" href="#">Adventure</a></li>
+                                <li><a class="dropdown-item" href="#">Science Fiction</a></li>
+                                <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                                <li><a class="dropdown-item" href="#">Thriller</a></li>
+                                <li><a class="dropdown-item" href="#">Horror</a></li>
+                                <li><a class="dropdown-item" href="#">Mystery</a></li>
+                                <li><a class="dropdown-item" href="#">Crime</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="non-fiction-books.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Non-fiction Books</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">History</a></li>
+                                <li><a class="dropdown-item" href="#">Biographies</a></li>
+                                <li><a class="dropdown-item" href="#">Travel guides</a></li>
+                                <li><a class="dropdown-item" href="#">Philosophy</a></li>
+                                <li><a class="dropdown-item" href="#">Journalism</a></li>
+                                <li><a class="dropdown-item" href="#">Humor</a></li>
+                                <li><a class="dropdown-item" href="#">Self-help</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">eBooks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="locations.html"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Find a Store</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="navbar-nav ms-auto d-flex flex-row align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" type="button" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;Login</a>
+                    </li>
+                    <li class="nav-item" style="border-color: transparent;">
+                        <a class="btn btn-pink" href="#" type="button" data-bs-toggle="modal" data-bs-target="#signUpModal">Sign Up</a>
+                    </li>
+                    <li class="nav-item cart dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-shopping-cart"></i></a>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="row m-2 p-2">
+                                <div class="col-3 p-0">
+                                    <img src="images/new-arrivals/001.jpg" alt="Red Rising book cover" width="100%">
+                                </div>
+                                <div class="col-9">
+                                    <p class="fs-4">Red Rising</p>
+                                    <p>1 x 2.79 AZN</p>
+                                </div>
+                            </div>
+                            <p class="text-center fw-bold"><small>Total 1 product</small></p>
+                            <p class="text-center"><a href="#" class="btn btn-burgundy">Checkout</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Login Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content p-3">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">Login as Existing Customer</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="login-email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="login-email" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="login-pass" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="login-pass">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="remember">
+                                <label class="form-check-label" for="remember">Remember me</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-start">
+                        <button type="submit" class="btn btn-burgundy">Login</button>
+                        <p>or <a href="#" class="burgundy-link" type="button" data-bs-toggle="modal" data-bs-target="#signUpModal" data-bs-dismiss="modal">Create a new account</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sign up Modal -->
+        <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content p-3">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="signUpModalLabel">Create an Account</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="signup-email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="signup-email" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="signup-pass" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="signup-pass">
+                            </div>
+                            <div class="mb-3">
+                                <label for="signup-pass-conf" class="form-label">Password Confirmation</label>
+                                <input type="password" class="form-control" id="signup-pass-conf">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="send-email">
+                                <label class="form-check-label" for="send-email">Send me emails about new books, authors, and campaigns.</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-start">
+                        <button type="submit" class="btn btn-burgundy">Create</button>
+                        <p>or <a href="#" class="burgundy-link" type="button" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-dismiss="modal">Login as Existing Customer</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-3">
+        <!-- New Arrivals Section -->
+        <section id="new-arrivals" class="container-fluid pt-5 pb-5">
+            <div class="section-header ps-2 pe-2 d-flex justify-content-between">
+                <h2 class="display-3">New Arrivals</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-2 pt-4">
+                    <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#na1">
+                        <div class="card">
+                            <img src="images/new-arrivals/001.jpg" class="card-img-top" alt="Red Rising book cover">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">Red Rising</h4>
+                                <p class="author">by Pierce Brown</p>
+                                <p class="raiting"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span>4.2</span></p>
+                                <p class="amount badge">12.79 AZN</p>
+                                <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-3 col-lg-2 pt-4">
+                    <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#na2">
+                        <div class="card">
+                            <img src="images/new-arrivals/002.jpg" class="card-img-top" alt="Gone with the Wind book cover">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">Gone with the Wind</h4>
+                                <p class="author">by Margaret Mitchell</p>
+                                <p class="raiting"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span>4.3</span></p>
+                                <p class="amount badge">8.50 AZN</p>
+                                <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-3 col-lg-2 pt-4">
+                    <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#na3">
+                        <div class="card">
+                            <img src="images/new-arrivals/003.jpg" class="card-img-top" alt="House Made of Dawn book cover">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">House Made of Dawn</h4>
+                                <p class="author">by N. Scott Momaday</p>
+                                <p class="raiting"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i> <span>3.6</span></p>
+                                <p class="amount badge">5.84 AZN</p>
+                                <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-3 col-lg-2 pt-4">
+                    <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#na4">
+                        <div class="card">
+                            <img src="images/new-arrivals/004.jpg" class="card-img-top" alt="The Institute book cover">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">The Institute</h4>
+                                <p class="author">by Stephen King</p>
+                                <p class="raiting"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span>4.2</span></p>
+                                <p class="amount badge">14.99 AZN</p>
+                                <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-3 col-lg-2 pt-4">
+                    <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#na5">
+                        <div class="card">
+                            <img src="images/new-arrivals/005.jpg" class="card-img-top" alt="The Water Dancer book cover">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">The Water Dancer</h4>
+                                <p class="author">by Ta-Nehisi Coates</p>
+                                <p class="raiting"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> <span>4.0</span></p>
+                                <p class="amount badge">13.99 AZN</p>
+                                <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-3 col-lg-2 pt-4">
+                    <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#na6">
+                        <div class="card">
+                            <img src="images/new-arrivals/006.jpg" class="card-img-top" alt="The Testaments book cover">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">The Testaments</h4>
+                                <p class="author">by Margaret Atwood</p>
+                                <p class="raiting"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span>4.2</span></p>
+                                <p class="amount badge">11.99 AZN</p>
+                                <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-3 col-lg-2 pt-4">
+                    <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#na7">
+                        <div class="card">
+                            <img src="images/new-arrivals/007.jpg" class="card-img-top" alt="Lost Children Archive book cover">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">Lost Children Archive</h4>
+                                <p class="author">by Valeria Luiselli</p>
+                                <p class="raiting"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> <span>3.8</span></p>
+                                <p class="amount badge">16.99 AZN</p>
+                                <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- First Book Modal -->
+            <div class="modal fade" id="na1" tabindex="-1" aria-labelledby="na1Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content p-3">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="book-image col-4">
+                                <img src="images/new-arrivals/001.jpg" alt="Red Rising book cover" width="100%">
+                            </div>
+                            <div class="book-content col-8" data-book="na1">
+                                <h4 id="na1Label" class="fs-3">Red Rising <a href="#" class="text-muted">(Red Rising Saga #1)</a></h4>
+                                <p>by <a href="#" class="burgundy-link">Pierce Brown</a></p>
+                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span>4.2 (269,496 ratings)</span></p>
+                                <p>
+                                    'I live for the dream that my children will be born free,' she says. 'That they will be what they like. That they will own the land their father gave them.'<br><br>'I live for you,' I say sadly.<br><br>Eo kisses my cheek. 'Then you must live for more.'
+                                </p>
+                                <div class="more" style="display: none;">
+                                    <p>
+                                        Darrow is a Red, a member of the lowest caste in the color-coded society of the future. Like his fellow Reds, he works all day, believing that he and his people are making the surface of Mars livable for future generations.<br><br>Yet he spends his life willingly, knowing that his blood and sweat will one day result in a better world for his children.<br><br>But Darrow and his kind have been betrayed. Soon he discovers that humanity already reached the surface generations ago. Vast cities and sprawling parks spread across the planet. Darrow—and Reds like him—are nothing more than slaves to a decadent ruling class.<br><br>Inspired by a longing for justice, and driven by the memory of lost love, Darrow sacrifices everything to infiltrate the legendary Institute, a proving ground for the dominant Gold caste, where the next generation of humanity's overlords struggle for power. He will be forced to compete for his life and the very future of civilization against the best and most brutal of Society's ruling class. There, he will stop at nothing to bring down his enemies... even if it means he has to become one of them to do so.
+                                    </p>
+                                </div>
+                                <p class="btn-read burgundy-link" onclick="readMoreLess('na1')">...read more</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <span class="badge">12.79 AZN</span>
+                            <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Book Modal -->
+            <div class="modal fade" id="na2" tabindex="-1" aria-labelledby="na2Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content p-3">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="book-image col-4">
+                                <img src="images/new-arrivals/002.jpg" alt="Gone with the Wind book cover" width="100%">
+                            </div>
+                            <div class="book-content col-8">
+                                <h4 id="na2Label" class="fs-3">Gone with the Wind</h4>
+                                <p>by <a href="#" class="burgundy-link">Margaret Mitchell</a></p>
+                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span>4.3 (1,104,656 ratings)</span></p>
+                                <p>
+                                    Scarlett O'Hara, the beautiful, spoiled daughter of a well-to-do Georgia plantation owner, must use every means at her disposal to claw her way out of the poverty she finds herself in after Sherman's March to the Sea.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <span class="badge">8.50 AZN</span>
+                            <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Third Book Modal -->
+            <div class="modal fade" id="na3" tabindex="-1" aria-labelledby="na3Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content p-3">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="book-image col-4">
+                                <img src="images/new-arrivals/003.jpg" alt="House Made of Dawn book cover" width="100%">
+                            </div>
+                            <div class="book-content col-8">
+                                <h4 id="na3Label" class="fs-3">House Made of Dawn</h4>
+                                <p>by <a href="#" class="burgundy-link">N. Scott Momaday</a></p>
+                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i> <span>3.6 (7,139 ratings)</span></p>
+                                <p>
+                                    The magnificent Pulitzer Prize-winning novel of a proud stranger in his native land.<br><br>He was a young American Indian named Abel, and he lived in two worlds. One was that of his father, wedding him to the rhythm of the seasons, the harsh beauty of the land, the ecstasy of the drug called peyote. The other was the world of the twentieth century, goading him into a compulsive cycle of sexual exploits, dissipation, and disgust. Home from a foreign war, he was a man being torn apart, a man descending into hell.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <span class="badge">5.84 AZN</span>
+                            <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fourth Book Modal -->
+            <div class="modal fade" id="na4" tabindex="-1" aria-labelledby="na4Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content p-3">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="book-image col-4">
+                                <img src="images/new-arrivals/004.jpg" alt="The Institute book cover" width="100%">
+                            </div>
+                            <div class="book-content col-8" data-book="na4">
+                                <h4 id="na4Label" class="fs-3">The Institute</h4>
+                                <p>by <a href="#" class="burgundy-link">Stephen King</a></p>
+                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span>4.2 (154,432 ratings)</span></p>
+                                <p>
+                                    In the middle of the night, in a house on a quiet street in suburban Minneapolis, intruders silently murder Luke Ellis’s parents and load him into a black SUV. The operation takes less than two minutes. Luke will wake up at The Institute, in a room that looks just like his own, except there’s no window. And outside his door are other doors, behind which are other kids with special talents—telekinesis and telepathy—who got to this place the same way Luke did: Kalisha, Nick, George, Iris, and ten-year-old Avery Dixon. They are all in Front Half. Others, Luke learns, graduated to Back Half, “like the roach motel,” Kalisha says. “You check in, but you don’t check out.”
+                                </p>
+                                <div class="more" style="display: none;">
+                                    <p>
+                                        In this most sinister of institutions, the director, Mrs. Sigsby, and her staff are ruthlessly dedicated to extracting from these children the force of their extranormal gifts. There are no scruples here. If you go along, you get tokens for the vending machines. If you don’t, punishment is brutal. As each new victim disappears to Back Half, Luke becomes more and more desperate to get out and get help. But no one has ever escaped from the Institute.
+                                    </p>
+                                </div>
+                                <p class="btn-read burgundy-link" onclick="readMoreLess('na4')">...read more</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <span class="badge">14.99 AZN</span>
+                            <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fifth Book Modal -->
+            <div class="modal fade" id="na5" tabindex="-1" aria-labelledby="na5Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content p-3">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="book-image col-4">
+                                <img src="images/new-arrivals/005.jpg" alt="The Water Dancer book cover" width="100%">
+                            </div>
+                            <div class="book-content col-8" data-book="na5">
+                                <h4 id="na5Label" class="fs-3">The Water Dancer</h4>
+                                <p>by <a href="#" class="burgundy-link">Ta-Nehisi Coates</a></p>
+                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> <span>4.0 (80,306 ratings)</span></p>
+                                <p>
+                                    Young Hiram Walker was born into bondage. When his mother was sold away, Hiram was robbed of all memory of her — but was gifted with a mysterious power. Years later, when Hiram almost drowns in a river, that same power saves his life. This brush with death births an urgency in Hiram and a daring scheme: to escape from the only home he’s ever known.
+                                </p>
+                                <div class="more" style="display: none;">
+                                    <p>
+                                        So begins an unexpected journey that takes Hiram from the corrupt grandeur of Virginia’s proud plantations to desperate guerrilla cells in the wilderness, from the coffin of the deep South to dangerously utopic movements in the North. Even as he’s enlisted in the underground war between slavers and the enslaved, Hiram’s resolve to rescue the family he left behind endures.
+                                    </p>
+                                </div>
+                                <p class="btn-read burgundy-link" onclick="readMoreLess('na5')">...read more</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <span class="badge">13.99 AZN</span>
+                            <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sixth Book Modal -->
+            <div class="modal fade" id="na6" tabindex="-1" aria-labelledby="na6Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content p-3">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="book-image col-4">
+                                <img src="images/new-arrivals/006.jpg" alt="The Testaments book cover" width="100%">
+                            </div>
+                            <div class="book-content col-8" data-book="na6">
+                                <h4 id="na6Label" class="fs-3">The Testaments <a href="#" class="text-muted">(The Handmaid's Tale #2)</a></h4>
+                                <p>by <a href="#" class="burgundy-link">Margaret Atwood</a></p>
+                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <span>4.2 (246,257 ratings)</span></p>
+                                <p>
+                                    When the van door slammed on Offred's future at the end of The Handmaid's Tale, readers had no way of telling what lay ahead for her--freedom, prison or death.<br><br>With <span class='fst-italic'>The Testaments</span>, the wait is over.<br><br>Margaret Atwood's sequel picks up the story more than fifteen years after Offred stepped into the unknown, with the explosive testaments of three female narrators from Gilead.
+                                </p>
+                                <div class="more" style="display: none;">
+                                    <p>
+                                        In this brilliant sequel to The Handmaid's Tale, acclaimed author Margaret Atwood answers the questions that have tantalized readers for decades.<br><br><br><br>"Dear Readers: Everything you've ever asked me about Gilead and its inner workings is the inspiration for this book. Well, almost everything! The other inspiration is the world we've been living in."<br><br>--Margaret Atwood
+                                    </p>
+                                </div>
+                                <p class="btn-read burgundy-link" onclick="readMoreLess('na6')">...read more</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <span class="badge">11.99 AZN</span>
+                            <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Seventh Book Modal -->
+            <div class="modal fade" id="na7" tabindex="-1" aria-labelledby="na7Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content p-3">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="book-image col-4">
+                                <img src="images/new-arrivals/007.jpg" alt="Lost Children Archive book cover" width="100%">
+                            </div>
+                            <div class="book-content col-8" data-book="na7">
+                                <h4 id="na7Label" class="fs-3">Lost Children Archive</h4>
+                                <p>by <a href="#" class="burgundy-link">Valeria Luiselli</a></p>
+                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> <span>3.8 (15,408 ratings)</span></p>
+                                <p>
+                                    From the two-time NBCC Finalist, an emotionally resonant, fiercely imaginative new novel about a family whose road trip across America collides with an immigration crisis at the southwestern border--an indelible journey told with breathtaking imagery, spare lyricism, and profound humanity.<br><br>A mother and father set out with their two children, a boy and a girl, driving from New York to Arizona in the heat of summer. Their destination: Apacheria, the place the Apaches once called home.
+                                </p>
+                                <div class="more" style="display: none;">
+                                    <p>
+                                        Why Apaches? asks the ten-year-old son. Because they were the last of something, answers his father.<br><br>In their car, they play games and sing along to music. But on the radio, there is news about an "immigration crisis": thousands of kids trying to cross the southwestern border into the United States, but getting detained--or lost in the desert along the way.<br><br>As the family drives--through Virginia to Tennessee, across Oklahoma and Texas--we sense they are on the brink of a crisis of their own. A fissure is growing between the parents, one the children can almost feel beneath their feet. They are led, inexorably, to a grand, harrowing adventure--both in the desert landscape and within the chambers of their own imaginations.<br><br>Told through several compelling voices, blending texts, sounds, and images, Lost Children Archive is an astonishing feat of literary virtuosity. It is a richly engaging story of how we document our experiences, and how we remember the things that matter to us the most. With urgency and empathy, it takes us deep into the lives of one remarkable family as it probes the nature of justice and equality today.
+                                    </p>
+                                </div>
+                                <p class="btn-read burgundy-link" onclick="readMoreLess('na7')">...read more</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <span class="badge">16.99 AZN</span>
+                            <a href="#" class="btn btn-burgundy mt-auto"><i class="fas fa-shopping-cart"></i> Add to card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="z-index: 3;">
+        <section id="footer" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row d-flex flex-row">
+                    <div class="col-md-4 col-sm-6 mt-md-auto mb-md-auto mb-3 text-center text-md-start">
+                        <a href="index.html" class="logo">BOOK<span>LAND</span></a>
+                        <p class="copyright">&copy; Copyright 2021</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 text-center">
+                        <div class="social-media mb-3">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="contact">
+                            <p><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;(+994 012) 123-45-67</p>
+                            <p><i class="fas fa-fax"></i>&nbsp;&nbsp;(+994 012) 123-45-67</p>
+                            <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;info@bookland.az</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 profile mt-auto mb-auto d-flex flex-column align-items-md-end">
+                        <a href="#" class="btn btn-pink mb-3" type="button" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;Login</a>
+                        <a href="#" class="btn btn-pink" type="button" data-bs-toggle="modal" data-bs-target="#signUpModal">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
